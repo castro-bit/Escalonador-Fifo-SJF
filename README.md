@@ -22,42 +22,6 @@ O projeto foi criado para simular dois algoritmos de escalonamento de processos:
 
 O simulador permite a entrada de uma lista de processos com os tempos de chegada e execução e, em seguida, calcula e exibe o gráfico de execução, além das métricas de **Tempo Médio de Espera (TME)** e **Tempo Médio de Processamento (TMP)**.
 
-## Pré-requisitos
-
-Para executar o projeto, você precisa ter o seguinte:
-
--   **Java Development Kit (JDK)** instalado (versão 8 ou superior)
--   **IDE** ou um editor de texto com suporte a Java (opcional, mas recomendado)
-
-## Como usar
-
-1.  **Clone o repositório** para o seu computador:
-    
-    bash
-    
-    Copiar código
-    
-    `git clone https://github.com/seu-usuario/simulador-escalonamento-fifo-sjf.git` 
-    
-2.  **Compile o código** (caso não utilize uma IDE):
-    
-    bash
-    
-    Copiar código
-    
-    `javac Escalonador.java` 
-    
-3.  **Execute o programa**:
-    
-    bash
-    
-    Copiar código
-    
-    `java Escalonador` 
-    
-4.  Siga as instruções exibidas no console para adicionar processos e ver os resultados para ambos os algoritmos.
-    
-
 ## Algoritmos Implementados
 
 ### FIFO (First In, First Out)
